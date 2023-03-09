@@ -1,0 +1,3 @@
+commands:
+    + pylint main.py
+    + flake8 (pylint/)

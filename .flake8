@@ -1,0 +1,5 @@
+[flake8]
+; ignore = F401
+extend-ignore = F401
+exclude = sample.py
+per-file-ignores = sample2.py:E302  # IGNORE E302 in sample2.py only, other files still catch it
